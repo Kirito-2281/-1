@@ -1,0 +1,249 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+    width: 400px;
+}
+
+address {
+  font-style: normal;
+}
+
+
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+
+
+
+
+.head{
+    background-color: rgba(228, 171, 96, 0.815);
+}
+
+.logo{
+    margin-left: 100px;
+}
+.price{
+    text-indent: 300;
+}
+
+body{
+
+    background-color: rgb(245, 185, 107);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+header,footer{
+    font-weight:700;
+    font-size: 10px;
+    display: flex;
+    background-color: rgba(197, 128, 60, 0.815);
+    font-family: Tele;
+    align-items: center;
+    padding: 15px 50px;
+}
+.meny{
+    font-size: 80px;
+    text-indent: 100px;
+}
+.meny:hover {
+    transition: 0.3s all;
+    font-size: 100px;
+    color: blue;
+}
+.meny_1{
+    font-size: 80px;
+    text-indent: 300px;
+}
+
+header a {
+    color: inherit;
+    font-size: 26px;
+}
+
+img{
+    width: 200px;
+    margin-right: 100px;
+}
+h1,h2{
+    font-weight:900;
+    font-size: 45px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+h2{
+    background-color:rgba(228, 171, 96, 0.815);
+}
+
+main{
+    font-weight:100;
+    font-size: 20px;
+    margin:50px 20%;
+    border-radius: 20px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
+
+}
+
+article{
+    background-color:rgba(197, 128, 60, 0.815);
+    padding: 25px;
+    border-radius: 20px;
+    margin:20px;
+}
+
+.produkt{
+    background-color: rgb(207, 132, 61);
+    align-items: center;
+    justify-content: center;
+}
+
+.Telephone{
+    width: auto;
+    height: 400px;
+}
+
+.price{
+    font-size: 35px;
+    font-weight: 800;
+}
+.price:hover{
+    transition: 0.4s all;
+    font-size: 50px;
+    color: green;
+}
+.img{
+    width: auto;
+    height: 100px;
+}
+
+.zagolovok{
+    font-size: 40px;
+    font-weight:900;
+}
+.zagolovok:hover {
+    transition: 0.4s all;
+    color: blue;
+}
+.podzagolovok{
+    font-size: 25px;
+    font-weight:300;
+}
+.podzagolovok:hover {
+    transition: 0.4s all;
+    font-size: 30px;
+    color: darkorchid;
+}
+.background_koffe{
+    background-color: #f8af7f;
+}
+.footer {
+    background-color: #f8af7f;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer h5 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.aplle{
+    width: 150px;
+    height: 100px;
+}
+.google{
+    width: 150px;
+    height: 100px;
+}
+
+
+
